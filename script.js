@@ -3,7 +3,7 @@ let advice_id = document.getElementById("advice-id");
 let advice_quote = document.getElementById("advice-quote");
 let button = document.getElementById("get-quote");
 
-// Function to update the UI with advice
+// FUNCTION TO UPDATE THE UI WITH ADVICE
 function updateAdvice(data) {
     // --- Assign advice number---
     adviceNum = data.slip.id;
@@ -20,10 +20,10 @@ function updateAdvice(data) {
 // FUNCTION TO HANDLE ERRORS
 function handleErrors(error) {
     // Log the error to the console for debugging purposes
-    console.error('Error fetching advice:', error);
+    console.error("Error fetching advice:", error);
     // Display a user-friendly message on the screen
-    advice_id.textContent = 'Error';
-    advice_quote.textContent = 'Failed to fetch advice. Please try again later.';
+    advice_id.textContent = "Error";
+    advice_quote.textContent = "Failed to fetch advice. Please try again later.";
 }
 
 // ------ EVENTS -------
@@ -36,11 +36,11 @@ function getAdvice() {
             if (!resp.ok) {
                 // Handle specific HTTP status codes
                 if (resp.status === 404) {
-                    throw new Error('Advice not found');
+                    throw new Error("Advice not found");
                 } else if (resp.status === 500) {
-                    throw new Error('Server error');
+                    throw new Error("Server error");
                 } else {
-                    throw new Error('Network response was not ok');
+                    throw new Error("Network response was not ok");
                 }
             }
             return resp.json();
