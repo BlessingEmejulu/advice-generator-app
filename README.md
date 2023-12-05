@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://your-solution-url.com](https://github.com/BlessingEmejulu/advice-generator-app))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Advice Generator App](https://advicegenapp-by-blessedtechie.netlify.app/)
 
 ## My process
 
