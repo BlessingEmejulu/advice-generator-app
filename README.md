@@ -70,7 +70,5 @@ Thank you for generously dedicating your time and always being willing and avail
 
 Moreover, I want to acknowledge the profound influence you've had on both my technical skills and academic pursuits. Your guidance has been a beacon, inspiring me to push boundaries and strive for excellence. Your insights and encouragement have played a pivotal role in my growth, and for that, I am sincerely thankful.
 
-In more ways than one, you've been the biggest influence in shaping not only my tech skills but also my academic achievements. Your positivity and expertise have been a guiding force, and I appreciate the time and effort you've invested in my success.
-
 Thank you for being a wonderful friend and mentor. I am truly fortunate to have you in my life, and I want you to know how much your presence means to me.
 
